@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+    --white: #fff;
+}
+
+button {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 16px;
+    background-color: #E0E0E0;
+    color: #3F3F3F;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-weight: 500;
+    transition: .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+button span {
+    font-size: 20px !important;
+}
+
+button:hover, button:focus {
+    background-color: #AEAEAE;
+    transition: .2s;
+}
+
+button:disabled {
+    color: #9E9E9E;
+    background-color: #E0E0E0;
+}
+
+button.shadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button.outline {
+    color: #3D5AFE;
+    background-color: transparent;
+    border: 1px solid #3D5AFE;
+    box-shadow: none;
+}
+
+button.outline:hover, button.outline:focus {
+    background-color: #2962FF1A;
+}
+
+button.text {
+    color: #3D5AFE;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+button.text:hover, button.text:focus {
+    background-color: #2962FF1A;
+}
+
+
+button.text:disabled {
+    color: #9E9E9E;
+}
+
+button.text:disabled:hover, button.text:disabled:focus {
+    background-color: transparent;
+}
+
+button.sm {
+    padding: 6px 12px;
+}
+
+button.md {
+    padding: 8px 16px;
+}
+
+button.lg {
+    padding: 11px 22px;
+}
+
+button.primary {
+    background-color: #2962FF;
+    color: var(--white);
+}
+
+button.primary:hover, button.primary:focus {
+    background-color: #0039CB;
+    color: var(--white);
+}
+
+button.secondary {
+    background-color: #455A64;
+    color: var(--white);
+}
+
+button.secondary:hover, button.secondary:focus {
+    background-color: #1C313A;
+    color: var(--white);
+}
+
+button.danger {
+    background-color: #D32F2F;
+    color: var(--white);
+}
+
+button.danger:hover, button.danger:focus {
+    background-color: #9A0007;
+    color: var(--white);
+}
